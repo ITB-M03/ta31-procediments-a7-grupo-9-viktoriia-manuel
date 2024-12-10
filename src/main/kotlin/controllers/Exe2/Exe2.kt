@@ -32,7 +32,6 @@ fun pedirNumero(msg: String, scanner: Scanner): Int {
     return numero
 }
 
-
 /**
  * Convierte un número entero en su equivalente en números romanos.
  * La conversión se realiza utilizando una lista de valores romanos predefinidos. Se comienza con el valor más alto
