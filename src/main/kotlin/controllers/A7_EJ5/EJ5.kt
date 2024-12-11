@@ -63,6 +63,7 @@ fun menu() {
 /**
  * Función que se encarga de manejar las opciones que el usuario elige en el menú.
  * El programa sigue ejecutándose hasta que el usuario elige salir.
+ * No retorna ningún valor.
  * @param scan el Scanner para leer la entrada del usuario.
  * @param pila la pila en la que se almacenan los números.
  * @author Manuel Félix
@@ -90,6 +91,7 @@ fun manejarOpciones(scan: Scanner, pila: Pila) {
 
 /**
  * Función que añade un número a la pila si no está llena.
+ * No retorna ningún valor.
  * @param numero Número que se quiere añadir a la pila.
  * @param pila Instancia de la pila donde se añadirá el número.
  * @author Manuel Félix
@@ -107,6 +109,7 @@ fun push(numero: Int, pila: Pila){
 
 /**
  * Función que quita el número en el tope de la pila si no está vacía.
+ * No retorna ningún valor.
  * @param pila Instancia de la pila donde se eliminará el número.
  * @version 1.0
  * @author Manuel Félix
@@ -124,6 +127,7 @@ fun pop(pila: Pila){
 
 /**
  * Función que muestra por pantalla el contenido completo de la pila
+ * No retorna ningún valor.
  * @param pila Instancia de la pila donde mostrará el contenido
  * @version 1.0
  * @author Manuel Félix
