@@ -28,10 +28,10 @@ data class Pila(
  * @author Manuel Félix
  */
 fun main(){
-    val scan = abrirScanner()
-    val pila = Pila()
-    manejarOpciones(scan, pila)
-    cerrarScanner(scan)
+    val scan = abrirScanner() // abre el scanner
+    val pila = Pila() // crea una instancia de la pila con los valores predeterminados
+    manejarOpciones(scan, pila) // llama a la función que maneja las opciones del menú
+    cerrarScanner(scan) // cierra el scanner
 }
 
 /**
