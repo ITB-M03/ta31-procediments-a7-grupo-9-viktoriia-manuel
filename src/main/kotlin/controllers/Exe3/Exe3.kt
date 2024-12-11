@@ -79,7 +79,6 @@ fun mostrarResultado(acceder: Boolean) {
     }
 }
 
-/*-------------------------------------------------------------------------------*/
 
 /**
  * Función para abrir un scanner.
