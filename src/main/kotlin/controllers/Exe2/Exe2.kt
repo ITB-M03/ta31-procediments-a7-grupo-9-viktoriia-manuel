@@ -1,8 +1,6 @@
 package controllers.Exe2
 
-
 import java.util.*
-
 fun main() {
     // Abrir scanner
     val scanner: Scanner = abrirScanner()
