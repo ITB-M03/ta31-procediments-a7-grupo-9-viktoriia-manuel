@@ -36,7 +36,6 @@ fun calcularEspaciosLaterales(texto: String, anchoPantalla: Int): Int{
  * @author Manuel Felix
  */
 fun titol(texto: String){
-
     val anchoPantalla = 80
     val espaciosLaterales = calcularEspaciosLaterales(texto, anchoPantalla)
     println(" ".repeat(espaciosLaterales) + texto)
