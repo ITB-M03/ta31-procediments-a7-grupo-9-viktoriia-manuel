@@ -8,7 +8,7 @@
         <option name="gradleJvm" value="temurin-17" />
         <option name="modules">
           <set>
-            <option value="/dades/Viktoria/t/ta31-procediments-a7-grupo-9-viktoriia-manuel" />
+            <option value="$PROJECT_DIR$" />
           </set>
         </option>
       </GradleProjectSettings>
