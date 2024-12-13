@@ -1,7 +1,5 @@
 package controllers.Exe3
-
 import java.util.*
-
 // Contraseña almacenada en una constante interna
 const val contrasena_guardada = "secret"
 
