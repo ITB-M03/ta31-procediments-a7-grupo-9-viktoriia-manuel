@@ -4,6 +4,11 @@ import java.util.*
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
+/**
+ * Función principal que llama al procedimiento calcularIVA.
+ * @since 13/12/2024
+ * @author Viktoriia Ponomarenko
+ */
 fun main() {
     // Abrir scanner
     val scanner: Scanner = abrirScanner()
@@ -31,6 +36,8 @@ fun main() {
  * @param tipoIVA El tipo de IVA a aplicar (General, Reducido, Superreducido, Exento)
  * @param fechaCompra La fecha de compra en formato dd-MM-yyyy
  * @return El precio con el IVA aplicado
+ * @author Viktoriia
+ *
  */
 fun calcularIVA(precio: Double, tipoIVA: String, fechaCompra: String): Double {
     val formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy")
@@ -81,6 +88,7 @@ fun calcularIVA(precio: Double, tipoIVA: String, fechaCompra: String): Double {
  * @param msg Mensaje para mostrar al usuario
  * @param scanner Scanner para leer la entrada
  * @return El número introducido por el usuario
+ * @author Viktoriia
  */
 fun pedirDouble(msg: String, scanner: Scanner): Double {
     print(msg)
@@ -92,6 +100,7 @@ fun pedirDouble(msg: String, scanner: Scanner): Double {
  * @param msg Mensaje para mostrar al usuario
  * @param scanner Scanner para leer la entrada
  * @return La cadena introducida por el usuario
+ * @author Viktoriia
  */
 fun pedirString(msg: String, scanner: Scanner): String {
     print(msg)
@@ -101,6 +110,7 @@ fun pedirString(msg: String, scanner: Scanner): String {
 /**
  * Función para abrir un scanner
  * @return Un nuevo objeto Scanner para leer datos
+ * @author Viktoriia
  */
 fun abrirScanner(): Scanner {
     return Scanner(System.`in`)
@@ -109,6 +119,7 @@ fun abrirScanner(): Scanner {
 /**
  * Función para cerrar un scanner
  * @param scanner El objeto Scanner a cerrar
+ * @author Viktoriia
  */
 fun cerrarScanner(scanner: Scanner) {
     scanner.close()

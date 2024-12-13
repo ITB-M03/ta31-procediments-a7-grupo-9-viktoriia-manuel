@@ -53,5 +53,13 @@ class Exe1KtTest {
         assertEquals(53.5, resultado, 0.01)
     }
 
+    /**
+     * No puedo probar directamente funciones que usan `Scanner` porque dependen de `System.in`,
+     * lo que requiere entrada en tiempo real desde el teclado. Esto no es controlable en pruebas automatizadas.
+     * Para solucionarlo, debo separar la lógica de la interacción con el usuario, lo que hará que la función sea testeable.
+     *
+     * @authorViktoriia
+     */
+
 
 }
